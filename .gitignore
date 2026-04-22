@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Packaging artifacts
+*.zip
+
+# Generated scaffolds (if someone tests the skill inside this repo folder)
+test-output/
+scaffolded-projects/

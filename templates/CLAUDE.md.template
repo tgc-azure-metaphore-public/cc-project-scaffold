@@ -1,0 +1,73 @@
+# <PROJECT_NAME>
+
+> <ONE_LINE_DESCRIPTION>
+
+@../CONTEXT.md
+@../CLAUDE.md
+
+---
+
+## 1. Goal
+
+<ONE_PARAGRAPH_GOAL>
+
+## 2. Tech stack
+
+<STACK_LIST>
+
+## 3. Folder structure
+
+```
+<FOLDER_TREE>
+```
+
+## 4. First commands
+
+```bash
+<FIRST_COMMANDS>
+```
+
+## 5. Prompt chain
+
+This project uses the prompt-chain development pattern. All prompts given to Claude Code live in `./prompts/` with strict naming:
+
+- `PROMPT-01-INIT-PROJECT.md` — first build pass (generated at scaffold time)
+- `PROMPT-02-<NAME>.md` — second pass, generated via "generate next prompt" trigger
+- `PROMPT-0NB-<NAME>.md` — hotfix iteration on PROMPT-0N
+
+Rules:
+- Prefix `PROMPT-`, two-digit number, letter suffix for hotfixes
+- UPPERCASE hyphen-separated descriptive name
+- Sequential, no gaps
+
+## 6. Deploy
+
+- **Target**: <DEPLOY_TARGET>
+- **Reason**: <DEPLOY_REASON>
+- **Required env vars**: <ENV_VARS_LIST>
+
+Setup cheatsheet:
+
+<DEPLOY_STEPS>
+
+## 7. Production rules (inherited from workspace)
+
+- No em dashes anywhere. Hyphens and parentheses instead.
+- English only for all generated content. No exceptions.
+- Short, direct prose. Minimal bullet lists.
+- Minimize acronyms.
+- Currency: USD for business pricing, PHP for personal / daily.
+
+## 8. Project status
+
+- **Phase**: Initial scaffold (PROMPT-01 ready)
+- **Last updated**: <DATE>
+- **Next action**: Hand off PROMPT-01-INIT-PROJECT.md to Claude Code
+
+## 9. Maintenance
+
+Update this file when:
+- A new feature is added (update Section 2 or 3)
+- The hypothesis or goal shifts (Section 1)
+- A new deploy target is chosen (Section 6)
+- A PROMPT is completed and merged (Section 8)

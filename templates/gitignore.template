@@ -1,0 +1,66 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+.pnpm-store/
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Build
+dist/
+build/
+.next/
+out/
+*.egg-info/
+
+# Database
+*.db
+*.db-journal
+dev.db
+prisma/dev.db*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+run.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# Claude Code
+.claude/cache/
+.claude/logs/
+
+# Expo (Archetype E)
+.expo/
+.expo-shared/
+
+# Vercel
+.vercel/
+
+# Render
+.render/
+
+# Secrets
+*.pem
+*.key
+secrets/
+credentials.json
+service-account.json

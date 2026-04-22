@@ -1,0 +1,29 @@
+# <PROJECT_NAME>
+
+<ONE_LINE_DESCRIPTION>
+
+## Stack
+
+<STACK_LIST>
+
+## Quick start
+
+```bash
+<FIRST_COMMANDS>
+```
+
+## Project structure
+
+See `CLAUDE.md` for the full project operating manual, architecture decisions, and deploy instructions.
+
+## Prompts
+
+All Claude Code prompts for this project live in `./prompts/` with strict naming (`PROMPT-XX-DESCRIPTIVE-NAME.md`). The init prompt is `prompts/PROMPT-01-INIT-PROJECT.md`.
+
+## Deploy
+
+Target: <DEPLOY_TARGET>. See `CLAUDE.md` Section 6 for the full deploy cheatsheet.
+
+## License
+
+<LICENSE_OR_PRIVATE>
